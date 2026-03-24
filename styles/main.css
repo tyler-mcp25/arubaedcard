@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(../images/desktop_letterbox_retina-TAE-Landing-Page_Hero-Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 200px;
+    padding: 1.5em;
+}
+
+footer {
+    max-height: 1000px;
+}
+
