@@ -280,6 +280,7 @@
                     <label for="dob">Date of Birth:</label>
                     <input type="date" name="dob" id="dob">
                 </div>
+                <h5>Gender:</h5>
                 <div class="radiogroup">
                     <div class="formgroup radiotype">
                         <input type="radio" name="gender" id="male" value="male">
@@ -295,19 +296,136 @@
                     </div>
                 </div>
                 <h5>Personal Details</h5>
-                <!-- CONTINUE HERE -->
+                <div class="formgroup">
+                    <label for="address">Street Address:</label>
+                    <input type="text" name="address" id="address">
+                </div>
+                <div class="formgroup">
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="formgroup">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="">--Select Your State--</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Dakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode Island">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennessee">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virginia</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyoming">Wyoming</option>
+                    </select>
+                </div>
+                <div class="formgroup">
+                    <label for="zipcode">Zipcode:</label>
+                    <input type="text" name="zipcode" id="zipcode">
+                </div>
+                <div class="formgroup">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                <div class="formgroup">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="formgroup">
+                    <label for="occupation">Occupation:</label>
+                    <select name="occupation" id="occupation">
+                        <option value="">--Select Your Occupation--</option>
+                        <option value="Architecture and Engineering">Architecture and Engineering</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Building and Grounds Cleaning and Maintenance">Building and Grounds Cleaning and
+                            Maintenance</option>
+                        <option value="Business and Financial Operations">Business and Financial Operations</option>
+                        <option value="Community and Social Service">Community and Social Service</option>
+                        <option value="Computer and Mathematical">Computer and Mathematical</option>
+                        <option value="Construction and Extraction">Construction and Extraction</option>
+                        <option value="Design">Design</option>
+                        <option value="Educational Instruction and Library">Educational Instruction and Library</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Farming, Fishing, and Forestry">Farming, Fishing, and Forestry</option>
+                        <option value="Food Preparation and Serving Related">Food Preparation and Serving Related
+                        </option>
+                        <option value="Healthcare Practitioners and Technical">Healthcare Practitioners and Technical
+                        </option>
+                        <option value="Healthcare Support">Healthcare Support</option>
+                        <option value="Installation, Maintenance, and Repair">Installation, Maintenance, and Repair
+                        </option>
+                        <option value="Legal">Legal</option>
+                        <option value="Life, Physical, and Social Science">Life, Physical, and Social Science</option>
+                        <option value="Management">Management</option>
+                        <option value="Office and Administrative Support">Office and Administrative Support</option>
+                        <option value="Personal Care and Service">Personal Care and Service</option>
+                        <option value="Production">Production</option>
+                        <option value="Protective Service">Protective Service</option>
+                        <option value="Sales and Related">Sales and Related</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Transportation and Material Moving">Transportation and Material Moving</option>
+
+                    </select>
+                </div>
                 <h5>Health Considerations &amp; Declarations</h5>
                 <div class="formgroup radiotype">
                     <input type="checkbox" name="acknowledge1" id="acknowledge1">
-                    <label for="acknowledge1">I acknowledge and consent that any health-related cost incurred during my stay shall be solely for my account and by completing this online form, I waive all rights to claim any damages resulting out of falling ill and hold harmless the country of Aruba</label>
+                    <label for="acknowledge1">I acknowledge and consent that any health-related cost incurred during my
+                        stay shall be solely for my account and by completing this online form, I waive all rights to
+                        claim any damages resulting out of falling ill and hold harmless the country of Aruba</label>
                 </div>
                 <div class="formgroup radiotype">
                     <input type="checkbox" name="acknowledge2" id="acknowledge2">
-                    <label for="acknowledge2">I acknowledge and consent that upon my arrival and during my stay, the rules and regulations of Aruba apply to me and shall adhere to and respect the instructions by the authorities.</label>
+                    <label for="acknowledge2">I acknowledge and consent that upon my arrival and during my stay, the
+                        rules and regulations of Aruba apply to me and shall adhere to and respect the instructions by
+                        the authorities.</label>
                 </div>
                 <div class="formgroup radiotype">
                     <input type="checkbox" name="acknowledge3" id="acknowledge3">
-                    <label for="acknowledge3">I declare to have completed this form truthfully and understand that deliberately omitting the truth is sanctioned by the applicable rules and regulations in Aruba.</label>
+                    <label for="acknowledge3">I declare to have completed this form truthfully and understand that
+                        deliberately omitting the truth is sanctioned by the applicable rules and regulations in
+                        Aruba.</label>
                 </div>
                 <div class="buttons">
                     <input type="submit" value="Submit Form">

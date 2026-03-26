@@ -8,7 +8,7 @@ html {
     background-image: url(../images/desktop_letterbox_retina-TAE-Landing-Page_Hero-Image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 body {
@@ -17,6 +17,7 @@ body {
     font-size: 100%;
     max-width: 1000px;
     background-color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5;
 }
 
 header {
@@ -29,7 +30,145 @@ header img {
     padding: 1.5em;
 }
 
-footer {
-    max-height: 1000px;
+h1 {
+    text-align: center;
+    font-size: 300%;
+    padding-bottom: 20px;
 }
 
+.intro {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro ul {
+    margin-left: 8%;
+}
+
+.intro h4 {
+    padding-top: 15px;
+}
+
+.intro p::first-line {
+    font-size: 110%;
+    font-weight: 500;
+}
+
+/* FORM FORMATTING */
+.formgroup {
+    display: flex;
+    align-items: baseline;
+}
+
+form h5 {
+    padding-top: 20px;
+}
+
+.formgroup label {
+    width: 30%;
+    text-align: right;
+    margin-right: 5px;
+}
+
+input[type=text],
+input[type=date],
+input[type=tel],
+input[type=email],
+select {
+    font-size: 90%;
+    width: 40%;
+}
+
+.radiogroup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.radiogroup label {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.radiotype label {
+    width: 70%;
+    text-align: left;
+    padding-left: 5px;
+
+}
+
+input[type=checkbox] {
+    margin-left: 15%;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: lightskyblue;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid dodgerblue;
+    border-radius: 7px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    color:black;
+    background-color: dodgerblue;
+    border: 1px solid darkslategray;
+    transition: ease-in-out 150ms;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90%;
+    font-variant: small-caps;
+    background-color: rgba(135, 206, 250, 0.5);
+    color: whitesmoke;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+    }
+    header h2 {
+        font-size: 125%;
+        text-align: center;
+    }
+    .intro {
+        width: 95%;
+        margin: 0 auto;
+    }
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .formgroup {
+        flex-direction: column;
+    }
+    .radiotype {
+        flex-direction: row;
+    }
+    .formgroup label {
+        width: 95%;
+        text-align: left;
+    }
+    input[type=text], input[type=date], select {
+        width: 95%;
+    }
+}
